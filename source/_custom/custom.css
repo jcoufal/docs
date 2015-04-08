@@ -1,0 +1,67 @@
+@import url("css/theme.css");
+
+/* CUSTOM CSS OVERRIDES GO HERE */
+
+.wy-nav-content-wrap {
+  background: white;
+}
+
+.wy-nav-content {
+  max-width: 100%;
+}
+
+p {
+  margin-bottom: 16px;
+}
+
+p + ul {
+  margin-top: -12px;
+}
+
+h1, h2, h3, h4, h5, h6, p.rubric {
+  margin-top: 48px;
+}
+
+footer {
+  font-size: 70%;
+  margin-top: 48px;
+}
+
+footer p {
+  font-size: inherit;
+}
+
+.rst-content .section ol li p.first:last-child {
+    margin-bottom: 24px;
+}
+
+
+/* NOTES */
+.admonition.note {
+  font-size: 85%; /* match code size */
+  background: #fcfcfc;   /* match content bg */
+  color: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.admonition.note p {
+  font-size: inherit;
+}
+
+.admonition .first.admonition-title {
+  background: rgba(0, 0, 0, 0.065);
+  color: rgba(0, 0, 0, 0.45);
+}
+
+
+/* LINKS */
+a.external:after {
+  font-family: FontAwesome;
+  content: '';
+  visibility: visible;
+  display: inline-block;
+  font-size: 70%;
+  position: relative;
+  padding-left: 0.5em;
+  top: -0.5em;
+}
